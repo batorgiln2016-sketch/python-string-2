@@ -30,8 +30,12 @@ def get_initials(text):
 
 # Exercise 4
 def extract_year(text):
-    # Write your code here
-    pass
+    v = "1234567890"
+    f = ""
+    for char in text:
+        if char not in text:
+            f = f + char
+    print(f)
 
 # Exercise 5
 def is_palindrome(text):
