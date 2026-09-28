@@ -2,9 +2,12 @@
 
 # Exercise 1
 def is_valid_email(text):
-    # Write your code here
-    pass
-
+    e=int(input())
+if "@" in e:
+    if "." in e:
+        print("Valid")
+    else:
+        print("Invalid")
 # Exercise 2
 def remove_vowels(text):
     # Write your code here
