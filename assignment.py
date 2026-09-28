@@ -5,7 +5,7 @@ def is_valid_email(text):
     r=0
     for char in text:
         if '@' and '.' in char:
-            r=1
+            r=r+1
     if r==1:
         print("Valid")
     else:
