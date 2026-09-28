@@ -21,7 +21,7 @@ def remove_vowels(text):
         if char not in text:
          f=f+char
     return f
-
+pass
 # Exercise 3
 def get_initials(text):
     text=text.split
@@ -30,7 +30,7 @@ def get_initials(text):
      f=text[0].upper()
      i=i+f+'.'
      return i
-
+pass
 # Exercise 4
 def extract_year(text):
     v = "1234567890"
@@ -39,7 +39,7 @@ def extract_year(text):
         if char not in text:
             f = f + char
     return f
-
+pass
 # Exercise 5
 def is_palindrome(text):
     # Write your code here
