@@ -4,9 +4,11 @@
 def is_valid_email(text):
     r=0
     for char in text:
-        if '@' and '.' in char:
+        if '@' in char:
             r=r+1
-    if r==1:
+        if '.' in char:
+            r=r+1
+    if r==2:
         print("Valid")
     else:
         print("Invalid")
